@@ -1,4 +1,4 @@
 - name: configure db server
-  hosts: db
+  hosts: db.samfuretech.cloud
   become: yes
   - db 

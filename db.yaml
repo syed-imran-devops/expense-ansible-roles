@@ -1,4 +1,7 @@
-- name: configure db server
-  hosts: db.samfuretech.cloud
+- name: configure DB server
+  hosts: db
+  vars_files:
+  - credentials.yaml
   become: yes
-  - db 
+  roles:
+  - db

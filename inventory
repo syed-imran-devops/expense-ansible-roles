@@ -1,0 +1,13 @@
+[db]
+db.samfuturetech.cloud
+
+[backend]
+backend.samfuturetech.cloud
+
+[frontend]
+frontend.samfuturetech.cloud
+
+
+[all:vars]
+
+ansible_password=DevOps321
